@@ -1,0 +1,58 @@
+/* default css */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+   
+}
+
+/* header css */
+
+.header{ background:#3498db ;
+
+}
+.header-left{
+    float: left;
+    width: 30%;
+
+}
+ 
+.header-left img{
+    width: 100px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+
+}
+.header-right ul{
+    text-align: right;
+
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+
+}
+.header-right ul li a{
+    display: block;
+    font-size: 30px;
+text-decoration: none;
+padding: 0 30px;
+line-height: 80px;
+border-right: 1px solid black;
+transition: .4s;
+}
+.header-right ul li a:hover{
+    background:#2980b9 ;
+
+}

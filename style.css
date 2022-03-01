@@ -1,0 +1,86 @@
+
+/* default css */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearflix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+/* header-css */
+
+.header{
+    background: #3498db;
+
+}
+.header-left{
+    float: left;
+    width: 30%;
+
+}
+.header-left img{
+    width: 100px;
+height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+
+}
+.header-right Ul{text-align: right;
+
+
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+
+}
+.header-right ul li a{
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0 30px ;
+line-height:90px ;
+border-right: 1px solid black;
+
+
+}
+.fixed-width{
+    width: 1250px;
+    margin: auto;
+
+}
+
+.header-right ul li a:hover{
+    background:#2980b9 ;
+}
+.banner{
+    background: url(./image/website\ theme.PNG) no-repeat center;
+background-size: cover;
+padding:200px 0;
+}
+.
+.banner-chapter h1{
+    color: white;
+    background:#7f8c8d ;
+    display: inline-block;
+    
+}
